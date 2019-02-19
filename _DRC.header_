@@ -1,0 +1,27 @@
+//
+//  Rule file generated on Fri Feb 15 18:05:30 IST 2019
+//     by Calibre Interactive - DRC (v2016.1_14.11)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "inv.calibre.db"
+LAYOUT PRIMARY "inv"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "inv.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME YES CELL SPACE XFORM
+DRC SUMMARY REPORT "inv.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/home/user/PDKfiles/scl_pdk/design_kit/drclvs_rsf/DRC.header"
+
