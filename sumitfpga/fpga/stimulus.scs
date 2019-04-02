@@ -5,7 +5,7 @@ parameters tr = 50p
 //f is the fall time
 //parameters f = 100p
 //K is the signal period
-parameters K = 8u
+parameters K = 400n
 
 
 vVdd (vdd 0) vsource dc=VDD
